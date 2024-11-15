@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+}
+select {
+    color: white;
+    border: 0px;
+    background-color: transparent;
+}
+header{
+    background-image: url(./75ae05112787439\ 1.jpg);
+    min-height: 800px;
+    background-size: cover;
+    position: center center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header nav ul li a{
+    color: white;
+}
+header h1{
+    margin-top: 300px;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+header button{
+    background-color: #114E86;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-top: 60px;
+}
+header button p{
+    width: 100px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+}
+
+main{
+    margin: 150px 0px;
+}
+main h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+main p{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.main_box{
+    max-width: 840px;
+    margin: auto;
+}
+section{
+    max-width: 1440px;
+}
+section span{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px 30px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #114E86;
+}
+section .span{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px 30px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+section .cards{
+    display: flex;
+    justify-content: space-between;
+}
+section h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+section .card{
+    margin-top: 85px;
+    width: 400px;
+    padding: 0px 55px;
+}
+section img{
+    padding: 40px 45px;
+    border-radius: 50%;
+}
+section p{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px 20px 0px;
+}
+section .card2{
+    margin-top: 85px;
+    background-color: #114E86;
+    width: 400px;
+    padding: 0px 55px;
+}
+section .p{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px 20px 0px;
+    color: white;
+}
+.fixed{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+footer{
+    margin-top: 160px;
+    max-width: 1440px;
+    min-height: 640px;
+    background-color: black;
+}
+.footer_top{
+    padding-top: 70px;
+    display: flex;
+}
+.footer_top_left{
+    width: 350px;
+}
+h4{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 50px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 20px; 
+    color: white;
+}
+.footer_top_first{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}  
+.footer_top_second{
+    margin-top: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_top_third{
+    margin-top: 50px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon2{
+    width: 22px;
+    height: 24px;
+    margin-top: 23px;
+}
+footer .footer_top_middle a{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+footer .footer_top_middle p{
+    margin-top: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer_top_right{
+    margin-left: 250px;
+    width: 350px;
+}
+.w{
+   width: 350px;
+   height: 50px;
+   background-color: #C4C4C440;
+   color: white;
+   padding-left: 10px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.q{
+    margin-top: 35px;
+    width: 350px;
+    height: 50px;
+    background-color: #C4C4C440;
+    color: white;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.footer_top_middle{
+    width: 250px;
+    margin-left: 110px;
+}
+footer button{
+    margin-top: 45px;
+    width: 350px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+footer pre{
+    margin-top: 208px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+.icons{
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icons img{
+    padding-right: 35px;
+}
+.new{
+    padding-top: 20px;
+    display: none;
+}
+.new_html{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+}
+.new_html a{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.new_html p{
+    padding-top: 80px;
+    text-align: center;
+}
+@media screen and (max-width: 576px) {
+    header h1{
+        text-align: center;
+    }
+    header{
+        background-image: url(./yuk2.png);
+    }
+    span{
+        color: orangered;
+    }
+    header .button{
+        display: flex;
+        justify-content: center;
+    }
+    main p{
+        text-align: center;
+    }
+    main p:last-of-type{
+        display: none;
+    }
+    section .cards{
+        flex-wrap: wrap;
+    }
+    section .card2{
+        background-color: #fff;
+    }
+    section .p{
+        color: black;
+    }
+    section .span{
+        color: #114E86; 
+    }
+    .footer_top_middle{
+        display: none;
+    }
+    h4{
+        text-align: center;
+    }
+    .footer_top{
+        flex-wrap: wrap;
+    }
+    .footer_top_right{
+        padding-top: 50px;
+        margin: 0;
+    }
+    pre{
+        display: none;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1000px) {
+    section .cards{
+        flex-wrap: wrap;
+    }
+    header nav ul li{
+        display: none;
+    }
+    .new{
+        display: inline;
+    }
+}
+
